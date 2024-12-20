@@ -289,13 +289,6 @@ img{
     justify-items: center;
     row-gap: 2rem;
 }
-.honour__img{
-    position: relative;
-    overflow: hidden;
-}
-.honour__img img{
-    border-radius: .5rem;
-}
 
 
 

@@ -230,7 +230,7 @@ img{
 }
 .img-about{
     width: 300px; 
-    height: 150px;
+    height: 100px;
     transition: 0.3s;
 }
 .img-about:hover{

@@ -258,7 +258,7 @@ img{
 .research__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
-    margin-top: 5px; /* 根据需要调整像素值 */
+    margin-top: 6px; /* 根据需要调整像素值 */
 }
 .research__name{
     display: inline-block;

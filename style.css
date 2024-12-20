@@ -226,9 +226,8 @@ img{
     width: 600px;
 }
 .img-about{
-    /* border-radius: 50%; */
-    width: 600px !important; 
-    height: 300px;
+    width: 500px; 
+    height: 260px;
     transition: 0.3s;
 }
 .img-about:hover{

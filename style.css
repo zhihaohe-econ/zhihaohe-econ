@@ -277,16 +277,30 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
+/* ===== HONOUR =====*/
 .honour__container{
-    justify-items: start;
     row-gap: 2rem;
 }
-
-.portfolio__link-name{
-    color: var(--dark-color);
+.honour__subtitle{
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+    margin-top: 6px; /* 根据需要调整像素值 */
 }
-
+.honour__name{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-right: var(--mb-2);
+    margin-bottom: var(--mb-3);
+    padding: .25rem .5rem;
+    background-color: var(--white-color);
+    border-radius: .25rem;
+}
+.honour__name:hover{
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.honour__img img{
+    border-radius: .5rem;
 }
 
 

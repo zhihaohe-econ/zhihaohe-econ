@@ -278,11 +278,8 @@ img{
 }
 
 /* ===== PORTFOLIO =====*/
-.portfolio{
-    background-color: var(--white-color);
-}
-.portfolio__container{
-    justify-items: center;
+.honour__container{
+    justify-items: start;
     row-gap: 2rem;
 }
 .portfolio__img{

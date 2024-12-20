@@ -227,8 +227,8 @@ img{
 }
 .img-about{
     /* border-radius: 50%; */
-    width: 400px !important; 
-    height: 250px;
+    width: 500px !important; 
+    height: 300px;
     transition: 0.3s;
 }
 .img-about:hover{

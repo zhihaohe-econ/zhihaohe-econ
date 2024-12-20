@@ -256,15 +256,15 @@ img{
 }
 
 
-/* ===== SKILLS =====*/
-.skills__container{
+/* ===== RESEARCH =====*/
+.research__container{
     row-gap: 2rem;
 }
-.skills__subtitle{
+.research__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
 }
-.skills__name{
+.research__name{
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
@@ -273,64 +273,30 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem;
 }
-.skills__name:hover{
+.research__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.skills__img img{
+.research__img img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
-.portfolio{
+/* ===== HONOUR =====*/
+.honour{
     background-color: var(--white-color);
 }
-.portfolio__container{
+.honour__container{
     justify-items: center;
     row-gap: 2rem;
 }
-.portfolio__img{
+.honour__img{
     position: relative;
     overflow: hidden;
 }
-.portfolio__img img{
+.honour__img img{
     border-radius: .5rem;
 }
-.portfolio__link{
-    position: absolute;
-    bottom: -100%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255,255,255,.3);
-    border-radius: .5rem;
-    cursor: pointer;
-    backdrop-filter: blur(10px);
-    transition: .3s;
-}
-.portfolio__img:hover .portfolio__link{
-    bottom: 0;
-}
-.portfolio__link-name{
-    color: var(--dark-color);
-}
 
-.button-pfolio{
-    border-radius: 15px;
-    padding: 10px;
-    background-color: var(--first-color);
-    border: none;
-    transition: 0.2s;
-}
-
-.button-pfolio:hover{
-    background-color: #b43a3a;
-transform: scale(1.05);
-transition: 0.4s;
-
-}
 
 
 /* ===== CONTACT =====*/
@@ -472,12 +438,12 @@ transition: 0.4s;
         width: 165px;
     }
 
-    .skills__container{
+    .research__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
-    .portfolio__container{
+    .honour__container{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;

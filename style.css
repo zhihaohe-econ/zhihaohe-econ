@@ -258,6 +258,7 @@ img{
 .research__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
+    margin-top: 50px; /* 调整这个值来控制间隔大小 */
 }
 .research__name{
     display: inline-block;

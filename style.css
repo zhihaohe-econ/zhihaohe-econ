@@ -227,7 +227,7 @@ img{
 }
 .img-about{
     /* border-radius: 50%; */
-    width: 200px !important; 
+    width: 400px !important; 
     height: 250px;
     transition: 0.3s;
 }

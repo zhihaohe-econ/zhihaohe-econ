@@ -66,6 +66,13 @@ body{
     color: var(--text-color);
     line-height: 1.6;
 }
+/* Profile Picture */
+.profile-pic {
+    width: 200px; /* 设置宽度 */
+    height: auto; /* 自动高度 */
+    border-radius: 0; /* 去掉圆角 */
+    object-fit: cover; /* 保持图片比例 */
+}
 h1,h2,p{
     margin: 0;
 }

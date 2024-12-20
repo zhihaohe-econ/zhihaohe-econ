@@ -223,7 +223,7 @@ img{
     text-align: center;
 }
 .about__img img{
-    width: 300px;
+    width: 600px;
 }
 .img-about{
     /* border-radius: 50%; */
@@ -256,15 +256,15 @@ img{
 }
 
 
-/* ===== SKILLS =====*/
-.skills__container{
+/* ===== RESEARCH =====*/
+.research__container{
     row-gap: 2rem;
 }
-.skills__subtitle{
+.research__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
 }
-.skills__name{
+.research__name{
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
@@ -273,11 +273,11 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem;
 }
-.skills__name:hover{
+.research__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.skills__img img{
+.research__img img{
     border-radius: .5rem;
 }
 

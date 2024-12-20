@@ -256,46 +256,15 @@ img{
 }
 
 
-/* ===== RESEARCH =====*/
-.research {
-    padding: var(--mb-4) 0;
+/* ===== SKILLS =====*/
+.skills__container{
+    row-gap: 2rem;
 }
-
-.research__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    text-align: center; /* Center text within each item */
-}
-
-.research__item {
-    margin-bottom: var(--mb-4);
-    width: 100%; /* Full width on smaller screens */
-}
-
-@media screen and (min-width: 768px) {
-    .research__container {
-        flex-direction: row; /* Horizontal layout on larger screens */
-        justify-content: space-around; /* Space items evenly */
-        flex-wrap: wrap; /* Wrap to next line if necessary */
-    }
-
-    .research__item {
-        flex-basis: calc(50% - 2rem); /* 50% width with some gap */
-        margin: 0 var(--mb-2) var(--mb-4) 0; /* Add some margin for spacing */
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .research__item {
-        flex-basis: calc(33.33% - 2rem); /* 33.33% width with some gap */
-    }
-}
-.research__subtitle{
+.skills__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
 }
-.research__name{
+.skills__name{
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
@@ -304,16 +273,15 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem;
 }
-.research__name:hover{
+.skills__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.research__img img{
+.skills__img img{
     border-radius: .5rem;
 }
 
-/* ===== HONOUR =====*/
-
+/* ===== PORTFOLIO =====*/
 .portfolio{
     background-color: var(--white-color);
 }
@@ -363,7 +331,6 @@ transform: scale(1.05);
 transition: 0.4s;
 
 }
-
 
 
 /* ===== CONTACT =====*/
@@ -505,12 +472,12 @@ transition: 0.4s;
         width: 165px;
     }
 
-    .research__container{
+    .skills__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
-    .honour__container{
+    .portfolio__container{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;

@@ -222,8 +222,11 @@ img{
     row-gap: 2rem;
     text-align: center;
 }
+.about__img {
+    display: block; /* 或者使用 flexbox、grid 等布局 */
+}
 .about__img img{
-    width: 300px !important;
+    width: 500px !important;
 }
 .img-about{
     width: 500px; 

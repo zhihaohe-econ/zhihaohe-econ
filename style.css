@@ -229,13 +229,9 @@ img{
     width: 500px !important;
 }
 .img-about{
-    width: 300px; 
-    height: 100px;
+    width: 400px; 
+    height: 120px;
     transition: 0.3s;
-}
-.img-about:hover{
-    transform: none;
-    box-shadow: none;
 }
 .about__subtitle{
     font-size: var(--h2-font-size);

@@ -224,6 +224,7 @@ img{
 }
 .about__img img{
     width: 600px;
+    margin-top: -50px; /* 调整这个值直到图片顶部与文本对齐 */
 }
 .img-about{
     width: 500px; 

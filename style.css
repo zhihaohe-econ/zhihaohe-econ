@@ -32,7 +32,7 @@
     }
 
 }
-@media screen and (max-width : 294px){
+@media screen and (max-width : 350px){
     :root{
         --big-font-size: 40px;
     }

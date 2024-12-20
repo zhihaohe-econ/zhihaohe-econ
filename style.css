@@ -226,7 +226,7 @@ img{
     width: 100px;
 }
 .img-about{
-    border-radius: 50%; 
+    border-radius: 0%; 
     width: 200px !important; 
     height: 250px;
     transition: 0.3s;

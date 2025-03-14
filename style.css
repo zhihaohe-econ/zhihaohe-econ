@@ -228,7 +228,7 @@ img{
 .research__subtitle,
 .research__name,
 .research__text {
-    margin-bottom: 1.5rem; /* Adjust the value for larger or smaller gaps */
+    margin-bottom: 2rem; /* Adjust the value for larger or smaller gaps */
 }
 
 /* Other styles */

@@ -56,7 +56,7 @@
     box-sizing: border-box;
 }
 html{
-    /* Removed scroll-behavior: smooth; to eliminate smooth scrolling effects */
+    /* Scroll-behavior already removed */
 }
 body{
     margin: var(--header-height) 0 0 0;
@@ -142,7 +142,7 @@ img{
         height: 100%;
         padding: 2rem;
         background-color: rgba(255,255,255,.3);
-        transition: .5s;
+        /* Removed transition: .5s; to eliminate animation */
         backdrop-filter: blur(10px);
     }
 }
@@ -198,7 +198,7 @@ img{
     line-height: .8;
 }
 .home__title span{
-    /* Removed text-shadow to eliminate dynamic effect */
+    /* Text-shadow already removed */
 }
 .home__scroll{
     align-self: flex-end;
@@ -231,7 +231,7 @@ img{
     max-width: 300px; 
     height: auto;
     max-height: 220px;
-    /* Removed transition: 0.3s; to eliminate dynamic effect */
+    /* Transition already removed */
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
@@ -261,7 +261,7 @@ img{
 .research__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
-    margin-top: 6px; /* 根据需要调整像素值 */
+    margin-top: 6px;
 }
 .research__name{
     display: inline-block;
@@ -287,7 +287,7 @@ img{
 .honour__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
-    margin-top: 6px; /* 根据需要调整像素值 */
+    margin-top: 6px;
 }
 .honour__name{
     display: inline-block;

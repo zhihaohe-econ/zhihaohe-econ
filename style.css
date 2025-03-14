@@ -56,7 +56,7 @@
     box-sizing: border-box;
 }
 html{
-    scroll-behavior: smooth;
+    /* Removed scroll-behavior: smooth; to eliminate smooth scrolling effects */
 }
 body{
     margin: var(--header-height) 0 0 0;
@@ -198,7 +198,7 @@ img{
     line-height: .8;
 }
 .home__title span{
-    text-shadow: 0 20px 25px rgba(0,0,0,.5);
+    /* Removed text-shadow to eliminate dynamic effect */
 }
 .home__scroll{
     align-self: flex-end;
@@ -228,7 +228,7 @@ img{
 .img-about{
     width: 300px; 
     height: 220px;
-    transition: 0.3s;
+    /* Removed transition: 0.3s; to eliminate dynamic effect */
 }
 .about__subtitle{
     font-size: var(--h2-font-size);

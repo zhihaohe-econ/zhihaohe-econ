@@ -260,6 +260,13 @@ img{
 .honour__container{
     row-gap: 2rem;
 }
+
+/* Add margin to each individual publication or paper item */
+.honour__container p,  /* Assuming each publication/paper is in a <p> tag */
+.honour__container li { /* Or if they are in <li> tags */
+    margin-bottom: 1.5rem; /* Increased spacing */
+}
+
 .honour__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);

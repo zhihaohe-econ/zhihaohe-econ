@@ -17,7 +17,7 @@
 
 /*===== Fonts and typography =====*/
 :root{
-    --body-font: 'Georgia', serif;
+    --body-font: 'Times New Roman', serif;
     --big-font-size: 80px;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;

@@ -223,6 +223,15 @@ img{
 .research__container{
     row-gap: 2rem;
 }
+
+/* Add margin to the individual publication or paper item */
+.research__subtitle,
+.research__name,
+.research__text {
+    margin-bottom: 1.5rem; /* Adjust the value for larger or smaller gaps */
+}
+
+/* Other styles */
 .research__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);

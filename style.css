@@ -227,7 +227,7 @@ img{
 /* Add margin to each individual publication or paper item */
 .research__container p,  /* Assuming each publication/paper is in a <p> tag */
 .research__container li { /* Or if they are in <li> tags */
-    margin-bottom: 2rem; /* Increased spacing */
+    margin-bottom: 1.5rem; /* Increased spacing */
 }
 
 .research__subtitle {

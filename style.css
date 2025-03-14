@@ -224,20 +224,19 @@ img{
     row-gap: 2rem;
 }
 
-/* Add margin to the individual publication or paper item */
-.research__subtitle,
-.research__name,
-.research__text {
-    margin-bottom: 2rem; /* Adjust the value for larger or smaller gaps */
+/* Add margin to each individual publication or paper item */
+.research__container p,  /* Assuming each publication/paper is in a <p> tag */
+.research__container li { /* Or if they are in <li> tags */
+    margin-bottom: 2rem; /* Increased spacing */
 }
 
-/* Other styles */
-.research__subtitle{
+.research__subtitle {
     color: var(--first-color);
     margin-bottom: var(--mb-3);
     margin-top: 6px;
 }
-.research__name{
+
+.research__name {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
@@ -246,13 +245,16 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem;
 }
-.research__name:hover{
+
+.research__name:hover {
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.research__img img{
+
+.research__img img {
     border-radius: .5rem;
 }
+
 
 /* ===== HONOUR =====*/
 .honour__container{
